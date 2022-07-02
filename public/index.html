@@ -37,7 +37,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.1/socket.io.js" integrity="sha512-9mpsATI0KClwt+xVZfbcf2lJ8IFBAwsubJ6mI3rtULwyM3fBmQFzj0It4tGqxLOGQwGfJdk/G+fANnxfq9/cew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
         // conexion donde se aloja el servidor de websockets
-        const socket = io('http://localhost:8080');
+        const socket = io('https://socket-server-mcg.herokuapp.com/');
         //referencias elementos del DOM
         const Form= document.querySelector("#myForm")
         const myMsgs = document.querySelector("#myMsgs")
